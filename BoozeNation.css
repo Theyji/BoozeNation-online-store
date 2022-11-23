@@ -1,0 +1,146 @@
+/* 
+* Page styling for BoozeNation WebApp user interface 
+* Author : Ayodeji Eniabire 000878946
+* Date: November 22, 2022
+*/
+header{
+    text-align: center; 
+    background-color: black;
+}
+
+body{
+    background-color: antiquewhite
+}
+
+header h1{
+    color: coral;
+    font-size: 3em;
+    font-family: cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#logoimg{
+    transform: translateY(30px);
+    padding: 0;
+    margin: 0;
+}
+
+header h3{
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(20, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+    color: blueviolet;
+
+    
+}
+
+#cart{
+    text-align: center;
+    font-size: small;
+}
+
+#store-container{
+    background-color: navajowhite;
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    gap: 1em; 
+}
+
+ul{
+list-style-type:none;
+color: royalblue;
+font-weight: bold;
+line-height: 2em;
+}
+
+ul :hover{
+color: green;
+}
+
+#store-container > div{
+    padding: 1em;
+    align-content: center;
+   
+}
+
+footer{
+    text-align: center;
+    line-height: 5px;
+    font-size: small;
+    margin: 10px;
+    background-color:darkkhaki;
+    background-size: cover;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+footer a{
+    color:blueviolet;
+}
+
+#items{
+    
+    text-align: center;
+
+}
+
+table{
+    width: 100%;
+    margin: 0;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+}
+
+th{
+    color: gold;
+    background-color:black;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+}
+
+#items h3{
+    color: chocolate;
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+#buttonN{
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+#addbutton{
+    color: darkgreen;
+}
+
+#Removebutton{
+    color: red;
+}
+
+#buttonP{
+    color: orangered;
+    margin: 0;
+    padding: 0;
+}
+
+#button{
+    margin: 0;
+    padding: 0;
+   
+}
